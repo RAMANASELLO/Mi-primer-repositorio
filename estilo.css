@@ -1,0 +1,143 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 24px;
+}
+
+.nav {
+  background-image: linear-gradient(gray, lightgray);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row-reverse;
+  height: 80px;
+  padding: 8px;
+}
+
+.lista ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  list-style-type: none;
+}
+
+.lista {
+  display: flex;
+  font-size: 12px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 50%;
+  padding-right: 5px;
+}
+
+.logo img {
+  height: auto;
+  width: 40px;
+}
+
+.logo {
+  font: size 14px;
+  color: black;
+  width: 40%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-left: 5px;
+}
+
+.logo img {
+  height: auto;
+  width: 40px;
+  animation: mymove 5s infinite;
+  position: relative;
+}
+
+@keyframes mymove {
+  0%   {top: -30px; left: 0px}
+  25%  {top: -30px; left: 180px}
+  50%  {top: 30px; left: 180px}
+  75%  {top: 30px; left: 0px}
+  100% {top: -30px; left: 0px}
+}
+
+.seccion-uno {
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  padding-bottom: 180px;
+}
+
+a {
+  text-decoration: double;
+  font-size: 12px;
+  color: black;
+}
+
+.texto {
+  padding-top: 40px;
+  padding-left: 80px;
+  padding-right: 80px;
+  text-align: justify;
+}
+
+.historia-img img {
+  width: 400px;
+  border-radius: 8px;
+  position: relative;
+}
+
+.seccion-tres {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 250px;
+  width: 90%;
+}
+
+.datos {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: medium;
+  width: 100%;
+}
+
+h4 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-image: linear-gradient(gray, lightgray);
+}
+
+.propaganda {
+
+  padding-left: 10px;
+}
+
+.defensa h4{
+  text-align:center
+  
+}
+
+.redes {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.iconos img {
+  width: 30px;
+  height: 30px;
+}

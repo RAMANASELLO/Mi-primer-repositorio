@@ -1,0 +1,104 @@
+body {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 24px;
+  }
+  
+  .nav {
+    background-image: linear-gradient(gray, lightgray);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    height: 80px;
+    padding: 8px;
+  }
+  
+  .lista ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    list-style-type: none;
+  }
+  
+  .lista {
+    display: flex;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 50%;
+    padding-right: 5px;
+  }
+
+  a {
+    text-decoration: double;
+    font-size: 12px;
+    color: black;
+  }
+  
+  .logo img {
+    height: auto;
+    width: 40px;
+  }
+  
+  .logo img {
+    height: auto;
+    width: 40px;
+    animation: mymove 5s infinite;
+    position: relative;
+  }
+
+  .logo {
+    font: size 14px;
+    color: black;
+    width: 40%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 5px;
+  }
+  
+  @keyframes mymove {
+    0%   {top: -30px; left: 0px}
+    25%  {top: -30px; left: 180px}
+    50%  {top: 30px; left: 180px}
+    75%  {top: 30px; left: 0px}
+    100% {top: -30px; left: 0px}
+  }
+
+ 
+  
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-image: linear-gradient(gray, lightgray);
+  }
+  
+  .propaganda {
+  
+    padding-left: 10px;
+  }
+  
+  .defensa h4{
+    text-align:center
+    
+  }
+  
+  .redes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .iconos img {
+    width: 30px;
+    height: 30px;
+  }
